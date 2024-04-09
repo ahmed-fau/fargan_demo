@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-title: "Framewise WaveGAN: High Speed Adversarial Vocoder in Time Domain with Very Low Computational Complexity"
+title: "Very Low Complexity Speech Synthesis Using Framewise Autoregressive GAN (FARGAN) with Pitch Prediction"
 description: "Demo Samples"
 github:
   is_project_page: false
