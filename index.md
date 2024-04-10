@@ -54,6 +54,74 @@
             <source src="wavs/hifigan_v3/mic_M02_si760.wav"></audio></td>
     </tr>
 
+    <tr>
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/orig/mic_F10_si2267.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/fargan_large/mic_F10_si2267.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/hifigan_v1/mic_F10_si2267.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/cargan/mic_F10_si2267.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/fwgan_1p2gflops/mic_F10_si2267.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/lpcnet_shoestring/mic_F10_si2267.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/hifigan_v3/mic_F10_si2267.wav"></audio></td>
+    </tr>
+
+    <tr>
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/orig/mic_M06_si1492.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/fargan_large/mic_M06_si1492.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/hifigan_v1/mic_M06_si1492.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/cargan/mic_M06_si1492.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/fwgan_1p2gflops/mic_M06_si1492.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/lpcnet_shoestring/mic_M06_si1492.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/hifigan_v3/mic_M06_si1492.wav"></audio></td>
+    </tr>
+
+    <tr>
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/orig/mic_F05_si1388.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/fargan_large/mic_F05_si1388.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/hifigan_v1/mic_F05_si1388.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/cargan/mic_F05_si1388.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/fwgan_1p2gflops/mic_F05_si1388.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/lpcnet_shoestring/mic_F05_si1388.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/hifigan_v3/mic_F05_si1388.wav"></audio></td>
+    </tr>
     
   </tbody>
 </table>
@@ -86,6 +154,47 @@
       <td><audio  controls="" style="width:150px;" preload="auto">
             <source src="wavs/fargan_noar/mic_M02_si760.wav"></audio></td>
     </tr>
+
+    <tr>
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/orig/mic_F10_si2267.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/fargan_large/mic_F10_si2267.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/fargan_nopitch/mic_F10_si2267.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/fargan_noar/mic_F10_si2267.wav"></audio></td>
+    </tr>
       
+    <tr>
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/orig/mic_M06_si1492.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/fargan_large/mic_M06_si1492.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/fargan_nopitch/mic_M06_si1492.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/fargan_noar/mic_M06_si1492.wav"></audio></td>
+    </tr>
+
+    <tr>
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/orig/mic_F05_si1388.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/fargan_large/mic_F05_si1388.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/fargan_nopitch/mic_F05_si1388.wav"></audio></td>
+
+      <td><audio  controls="" style="width:150px;" preload="auto">
+            <source src="wavs/fargan_noar/mic_F05_si1388.wav"></audio></td>
+    </tr>
   </tbody>
 </table>
