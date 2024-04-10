@@ -3,8 +3,8 @@
 
 @import "{{ site.theme }}";
 
-* { 
-    margin: 0; 
-    padding: 0; 
+html { 
+    margin: 20; 
+    padding: 20; 
     box-sizing: border-box; 
    } 
