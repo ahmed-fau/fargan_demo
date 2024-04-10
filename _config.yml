@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+remote_theme: tuur29/pages-themes-cayman
 title: "Very Low Complexity Speech Synthesis Using Framewise Autoregressive GAN (FARGAN) with Pitch Prediction"
 description: "Demo Samples"
 github:
