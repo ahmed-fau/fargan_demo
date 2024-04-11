@@ -10,7 +10,7 @@
 <p>Neural vocoders are now being used in a wide range of speech processing applications. In many of those applications, the vocoder can be the most complex component, so finding lower complexity algorithms can lead to significant practical benefits. In this work, we propose FARGAN, an autoregressive vocoder that takes advantage of long-term pitch prediction to synthesize high-quality speech in small subframes, without the need for teacher-forcing. Experimental results show that the proposed 600~MFLOPS FARGAN vocoder can achieve both higher quality and lower complexity than existing low-complexity vocoders. The quality even matches that of existing higher-complexity vocoders.</p>
 
 
-<p><a href="https://2023.ieeeicassp.org/"> arxiv</a> & <a href="https://gitlab.xiph.org/xiph/opus/-/tree/main/dnn/torch/fargan?ref_type=heads">code</a></p>
+<p><a href="https://2023.ieeeicassp.org/"> arxiv</a> & <a href="https://gitlab.xiph.org/xiph/opus/-/tree/spl_fargan/dnn/torch/fargan">code</a></p>
 
 <br> 
 
