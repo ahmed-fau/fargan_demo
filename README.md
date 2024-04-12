@@ -1,1 +1,1 @@
-# Demo Samples for Framewise Auto-Regressive GAN (FARGAN)
+# Demo Samples for Framewise Auto-Regressive GAN (FARGAN) Vocoder
