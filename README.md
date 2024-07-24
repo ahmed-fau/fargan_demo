@@ -1,4 +1,4 @@
-# Demo Samples for Framewise Auto-Regressive GAN (FARGAN) Vocoder
+# Demo Samples for [Framewise Auto-Regressive GAN (FARGAN)](https://arxiv.org/abs/2405.21069) Vocoder
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page amd the [Gull](https://yluo42.github.io/Gull/) demo page.
