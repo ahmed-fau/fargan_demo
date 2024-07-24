@@ -559,6 +559,243 @@
         </div>
         </div>
 
+        <h2 class="title is-4" align="center">Out-of-domain Singing & Noisy Samples (listening via headset is recommended)</h2>
+        <div class="content ">
+             
+            <ul>
+                  <li><p>This part shows how FARGAN perfoms compared to other models when reconstructing out-of-domain samples such as singing and noisy speech.</p></li>
+                  <li><p>All models were not trained on any singing or noisy speech datasets.</p></li>
+                  <li><p>The original version of the following demo samples were obtained from the free datasets defined in the following references:</p>
+                        <ul>
+                            <li>4 singing voice items from the NUS-48E dataset: <br><em>Zhiyan Duan, Haotian Fang, Bo Li, Khe Chai Sim and Ye Wang. “The NUS Sung and Spoken Lyrics Corpus: A Quantitative Comparison of Singing and Speech“. Asia-Pacific Signal and Information Processing Association Annual Submit and Conference 2013 (APSIPA ASC 2013).</em></li>
+                            <li>1 singing voice item from the demo page of the following paper: <br><em>Takahashi, Naoya, Mayank Kumar, and Yuki Mitsufuji. "Hierarchical diffusion models for singing voice neural vocoder." ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2023.</em></li>  
+                            <li>5 noisy speech items from the dataset provided by Valentini et al.: <br><em>Botinhao, Cassia Valentini, et al. "Speech enhancement for a noise-robust text-to-speech synthesis system using deep recurrent neural networks." Interspeech 2016. 2016.</em></li>
+                        </ul>
+                  </li>
+            </ul>
+           
+          </div>
+        <div class="columns is-centered has-text-centered" >
+            <div style="overflow-x:auto; min-width: 100%">
+        <table align="center" class="table" style="background-color: transparent;" >
+          <thead>
+            <tr style="border-bottom: transparent">
+              <th align="center"><strong>Original</strong></th>
+              <th align="center"><strong>FARGAN</strong></th>
+              <th align="center"><strong>HiFi-GAN (V1)</strong></th>
+              <th align="center"><strong>CARGAN</strong></th>
+              <th align="center"><strong>LPCNet</strong></th>
+              <th align="center"><strong>HiFi-GAN (V3)</strong></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><audio  controls="" style="width:170px;" preload="auto">
+                    <source src="wavs/singing_and_noisy_items/orig/sitem1.wav"></audio></td>
+        
+              <td><audio  controls="" style="width:170px;" preload="auto">
+                    <source src="wavs/singing_and_noisy_items/fargan/sitem1.wav"></audio></td>
+        
+              <td><audio  controls="" style="width:170px;" preload="auto">
+                    <source src="wavs/singing_and_noisy_items/hifiganv1/sitem1.wav"></audio></td>
+        
+              <td><audio  controls="" style="width:170px;" preload="auto">
+                    <source src="wavs/singing_and_noisy_items/cargan/sitem1.wav"></audio></td>
+
+              <td><audio  controls="" style="width:170px;" preload="auto">
+                    <source src="wavs/singing_and_noisy_items/lpcnet/sitem1.wav"></audio></td>
+
+              <td><audio  controls="" style="width:170px;" preload="auto">
+                    <source src="wavs/singing_and_noisy_items/hifiganv3/sitem1.wav"></audio></td>
+            </tr>
+        
+ 
+            <tr>
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/orig/sitem2.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/fargan/sitem2.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv1/sitem2.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/cargan/sitem2.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/lpcnet/sitem2.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv3/sitem2.wav"></audio></td>
+                </tr>
+
+                <tr>
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/orig/sitem3.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/fargan/sitem3.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv1/sitem3.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/cargan/sitem3.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/lpcnet/sitem3.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv3/sitem3.wav"></audio></td>
+                </tr>
+
+                <tr>
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/orig/sitem4.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/fargan/sitem4.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv1/sitem4.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/cargan/sitem4.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/lpcnet/sitem4.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv3/sitem4.wav"></audio></td>
+                </tr>
+
+                <tr>
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/orig/sitem5.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/fargan/sitem5.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv1/sitem5.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/cargan/sitem5.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/lpcnet/sitem5.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv3/sitem5.wav"></audio></td>
+                </tr>
+
+                <tr>
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/orig/nitem1.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/fargan/nitem1.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv1/nitem1.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/cargan/nitem1.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/lpcnet/nitem1.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv3/nitem1.wav"></audio></td>
+                </tr>
+
+                <tr>
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/orig/nitem2.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/fargan/nitem2.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv1/nitem2.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/cargan/nitem2.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/lpcnet/nitem2.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv3/nitem2.wav"></audio></td>
+                </tr>
+
+                <tr>
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/orig/nitem3.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/fargan/nitem3.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv1/nitem3.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/cargan/nitem3.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/lpcnet/nitem3.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv3/nitem3.wav"></audio></td>
+                </tr>
+
+
+                <tr>
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/orig/nitem4.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/fargan/nitem4.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv1/nitem4.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/cargan/nitem4.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/lpcnet/nitem4.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv3/nitem4.wav"></audio></td>
+                </tr>
+
+                <tr>
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/orig/nitem5.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/fargan/nitem5.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv1/nitem5.wav"></audio></td>
+            
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/cargan/nitem5.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/lpcnet/nitem5.wav"></audio></td>
+    
+                  <td><audio  controls="" style="width:170px;" preload="auto">
+                        <source src="wavs/singing_and_noisy_items/hifiganv3/nitem5.wav"></audio></td>
+                </tr>
+
+          </tbody>
+        </table>
+        </div>
+        </div>
+
 
   </div>
   </div>
